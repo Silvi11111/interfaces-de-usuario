@@ -67,7 +67,9 @@ public class App extends Application {
 
     //servicios
     public void inicializarData(){
-        Cliente cliente = new Cliente("12233", "juan", "apellido");
+        Cliente cliente = new Cliente("12233", "juan", "Perez");
+        empresa.agregarCliente(cliente);
+        Cliente cliente1 = new Cliente("52327", "Laura", "Cardona");
         empresa.agregarCliente(cliente);
     }
 }
